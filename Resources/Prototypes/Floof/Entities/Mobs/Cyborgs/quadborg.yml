@@ -792,12 +792,8 @@
       borg_module:
       - XenoborgModuleBasic
       - BorgModuleKill
-      - BorgModuleConstruction
-      - BorgModuleRCD
       - BorgModuleTool
       - BorgModuleAdvancedSurgery
-      - BorgModuleOperative
-      - XenoborgModuleFireExtinguisher
   - type: ShowHealthBars
     damageContainers:
     - Inorganic
