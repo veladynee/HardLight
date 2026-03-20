@@ -719,9 +719,9 @@
     sprite: _HL/Mobs/Player/borgs/quads.rsi
     scale: 0.7, 0.7
     layers:
-    - state: Chip
+    - state: chip_quadsprite
       map: ["movement"]
-    - state: quadspritechip
+    - state: quadspritel
       map: ["enum.BorgVisualLayers.Light"]
       shader: unshaded
       visible: false
@@ -732,10 +732,10 @@
   - type: SpriteMovement
     movementLayers:
       movement:
-        state: chip_moving
+        state: chip_quadsprite_moving
     noMovementLayers:
       movement:
-        state: Chip
+        state: chip_quadsprite
   - type: BorgChassis
     maxModules: 10
     moduleWhitelist:
@@ -755,6 +755,13 @@
     access: [["CentralCommand"]]
   - type: SiliconLawProvider
     laws: Qborg
+  - type: SpriteStateToggle
+    spriteLayer: movement
+    stateOff: chip_quadsprite
+    stateOn: chip_quadspriteballz
+    movementStateOff: chip_quadsprite
+    movementStateOn: chip_quadsprite_movingballz
+
   # Note: No toggle added here; no provided Chip ballz states.
 
 - type: entity
