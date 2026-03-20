@@ -20,16 +20,9 @@
         Base: dreadtalon
         BaseUnshaded: glow
       Critical:
-        Base: bear_dead
+        Base: crit
       Dead:
-        Base: bear_dead
-  - type: Butcherable
-    spawned:
-    - id: FoodMeatBear
-      amount: 3
-    - id: MaterialHideBear
-      amount: 1
-      prob: 0.3
+        Base: dead
   - type: ReplacementAccent
     accent: genericAggressive
   - type: Vocal
