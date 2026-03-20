@@ -681,7 +681,7 @@
   - type: SpriteMovement
     movementLayers:
       movement:
-        state: apex_moving
+        state: Apex_moving
     noMovementLayers:
       movement:
         state: Apex
@@ -708,7 +708,7 @@
     spriteLayer: movement
     stateOff: Apex
     stateOn: Apexballz
-    movementStateOff: apex_moving
+    movementStateOff: Apex_moving
     movementStateOn: Apex_movingballz
 
 - type: entity
