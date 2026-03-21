@@ -16,11 +16,23 @@
       "directions": 4
     },
 	{
-      "name": "bluetalon",
+      "name": "Bluetalon",
       "directions": 4
     },
 	{
       "name": "bluetalonglow",
+      "directions": 4
+    },
+    {
+      "name": "dreadtalonralight",
+      "directions": 4
+    },
+    {
+      "name": "dreadtalonra",
+      "directions": 4
+    },
+    {
+      "name": "dreadtalonlight",
       "directions": 4
     },
 	{

@@ -344,7 +344,7 @@
         ]
     },
     {
-        "name": "apex_moving",
+        "name": "Apex_moving",
         "directions": 4,
         "delays": [
             [
@@ -1020,15 +1020,45 @@
         ]
     },
     {
-        "name": "Chip",
+        "name": "chip_quadsprite",
         "directions": 4
     },
     {
-        "name": "quadspritechip",
+        "name": "chip_quadspriteballz",
         "directions": 4
     },
     {
-        "name": "chip_moving",
+        "name": "chip_quadsprite_moving",
+        "directions": 4,
+        "delays": [
+            [
+                0.2,
+                0.2,
+                0.2,
+                0.2
+            ],
+            [
+                0.2,
+                0.2,
+                0.2,
+                0.2
+            ],
+            [
+                0.2,
+                0.2,
+                0.2,
+                0.2
+            ],
+            [
+                0.2,
+                0.2,
+                0.2,
+                0.2
+            ]
+        ]
+    },
+    {
+        "name": "chip_quadsprite_movingballz",
         "directions": 4,
         "delays": [
             [
