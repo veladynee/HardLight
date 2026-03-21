@@ -29,9 +29,8 @@
   - type: ContainerFill
     containers:
       borg_brain:
-      - MMIFilled
+      - SynthCCU
       borg_module:
-      - XenoborgModuleBasic
       - BorgModuleKill
       - BorgModuleTool
       - BorgModuleAdvancedSurgery

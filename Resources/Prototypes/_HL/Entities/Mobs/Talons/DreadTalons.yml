@@ -20,9 +20,9 @@
         Base: dreadtalon
         BaseUnshaded: glow
       Critical:
-        Base: bear_dead
+        Base: crit
       Dead:
-        Base: bear_dead
+        Base: dead
   - type: Butcherable
     spawned:
     - id: FoodMeatBear
